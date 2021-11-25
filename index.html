@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo Lionar</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="magnific_popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   
+</head>
+
+<nav class="navbar">
+  <ul>
+    <li>
+      <a href="#thisIs" class="dot active" data-scroll="Hello">
+        <span>Hello</span>
+      </a>
+    </li>
+    <li>
+      <a href="#myExperience" class="dot" data-scroll="Experiences">
+        <span>Experiences</span>
+      </a>
+    </li>
+    <li>
+      <a href="#awardsTitle" class="dot" data-scroll="Awards">
+        <span>Awards</span>
+      </a>
+    </li>
+    <li>
+      <a href="#portfolioTitle" class="dot" data-scroll="project">
+        <span>Project</span>
+      </a>
+    </li>
+    <li>
+      <a href="#contactMe" class="dot" data-scroll="contact">
+        <span>Contact</span>
+      </a>
+    </li>
+  </ul>
+  </nav>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+$(window).on('scroll',function(){
+
+  var link = $('.navbar a.dot');
+  var top = $(window).scrollTop();
+
+  $('.sec').each(function(){
+    var id = $(this).attr('id');
+    var height = $(this).height();
+    var offset = $(this).offset().top - 150;
+    if(top >= offset && top < offset + height){
+      link.removeClass('active');
+      $('.navbar').find('[data-scroll="' + id + '"]').addClass('active');
+    }
+  });
+});
+});
+</script>
+
+<body class="launch" data-new-gr-c-s-check-loaded="14.1039.0" data-gr-ext-installed>
+  </ul>
+    <div id="page">
+      <div class="keyart" id="nonparallax"></div>
+     <div class="keyart" id="parallax">
+      <div class="keyart" id="parallax">
+				<div class="keyart_layer parallax" id="keyart-0" data-speed="2" style="transform: translate3d(0px, -18px, 0px)"></div>		<!-- 00.0 -->
+				<div class="keyart_layer parallax" id="keyart-1" data-speed="5" style="transform: translate3d(0px, -45px, 0px)"></div>	<!-- 12.5 -->
+				<div class="keyart_layer parallax" id="keyart-2" data-speed="11" style="transform: translate3d(0px, -99px, 0px)"></div>		<!-- 25.0 -->
+				<div class="keyart_layer parallax" id="keyart-3" data-speed="16" style="transform: translate3d(0px, -144px, 0px)"></div>	<!-- 37.5 -->
+				<div class="keyart_layer parallax" id="keyart-4" data-speed="26" style="transform: translate3d(0px, -234px, 0px)"></div>		<!-- 50.0 -->
+				<div class="keyart_layer parallax" id="keyart-5" data-speed="36" style="transform: translate3d(0px, -324px, 0px)"></div>	<!-- 62.5 -->
+				<div class="keyart_layer parallax" id="keyart-6" data-speed="49" style="transform: translate3d(0px, -441px, 0px)"></div>		<!-- 75.0 -->
+				<div class="keyart_layer" id="keyart-scrim"></div>
+				<div class="keyart_layer parallax" id="keyart-7" data-speed="69" style="transform: translate3d(0px, -621px, 0px)"></div>		<!-- 87.5 -->
+				<div class="keyart_layer" id="keyart-8" data-speed="100"></div>		<!-- 100. -->
+      </div>
+    </div>
+
+    
+
+    <div id="maincontain">
+
+      <div id="main1">
+
+       <div class="sectionHello">
+        <div>Greetings!</div>
+       </div>
+
+       <div class="thisIs">
+         <div id="thisIs">This is<a> Ricardo Lionar</a></div>
+         <div id="belowName">Professional Architect and Designer</div>
+       </div>
+
+       
+     
+      
+
+       <div class="portrait">
+         <img src="images/portrait.png" width="900px">
+       </div>
+
+       <div class="animation">
+        <img class="robot"src="images/me.png" width="400px" >
+       </div>	
+      </div>
+
+ 
+
+       <!--Story-->
+
+       <div id="mainBody" class="container">
+        <h2>My philosophy</h2>
+        <br>
+        <hr width="300px">
+         <div id="columnText">
+           <p id="myPhil">	
+             "Over these past several years, I have dedicated my effort to become a professional designer, student, and researcher to explore the potential that the built environment can have in achieving a sustainable future. To accomplish that, I believe one must have the ability to analyse and control the physical phenomena on buildings which in turn impacts the building efficiency, aesthetic value, and the occupants inside.
+             <br>
+             For me, “passion for design” means able to enjoy the process of creating, innovating, and finding solutions to problems. Passion for design also means that sound knowledge and great techniques will be nothing without enjoying the process."
+             </p>
+          <p id="philImage">
+            <img id="crossHand"src="images/model5.png" width="320px" >
+          </p>
+        </div>
+       </div>
+          <!--  <p id="About">
+           After receiving his Bachelor of Architecture, where he earned top honours, Ricardo Lionar has begun working on his professional career joining architectural firms in Jakarta dan Singapore.  
+           <br>
+           He received Australia Awards Scholarship to continue his post-graduate study in Architectural Science in Sydney, Australia, majoring in High Performance Building and Sustainable Design, where he also received several awards including Australian Institute of Building NSW Chapter President's Award and David Rowe Memorial Price in Building Services.
+           </p>-->
+
+         <div class="filler">
+            <img class="robot2" src="images/me3.png" width="400px" >
+            <h2 id="interest">My Interest</h2>
+         <br>
+         <hr width="300px">
+            <table id="hobby">
+              <tr>
+                <td> <img src="images/game.png"></td>
+                <td> <img src="images/painting.png"></td>
+                <td> <img src="images/3d.png"></td>
+              </tr>
+              <tr id="slot">
+              <td>Gaming</td>
+              <td>Digital Painting</td>
+              <td>3D Modelling</td>
+            </tr>
+            <tr id="slotDesc">
+              <td> The use of technology such as Unreal Engine, Unity, and collaboration between specialists to produce a great 2D and 3D environment inspired me so much as an architect.</td>
+              <td>I have always fancy drawing. I have been drawing since I was a child. Although it sounds
+                stereotypical, it is one of the reasons why I chose architecture as my major.</td>
+              <td>Architecture can not be separated from the CG Industry. I have been exploring methods in 3D modeling and learning new exciting things along the way.</td>
+            </tr>
+            </table>
+          </div>
+         
+
+          <br>
+          <br>
+         <!--Experiences-->
+        <div class="experience" id="myExperience">
+         <h2>Experiences</h2>
+         <br>
+         <hr width="300px">
+         <br>
+         </div>
+
+      <table class="education">
+          <tr>
+          <td><h3>Educations</h3></td>
+        </tr>
+         <tr>
+         <td><h4>The University of Sydney</h4></td>
+         <td><h5>Master of Architectural Science</h5></td>
+         </tr>
+         <tr>
+         <td><h6>Jan 2017- Apr 2019</h6></td>
+         <td><p>The field of Architectural Science is enjoying rapid and exciting technological innovations. With extensive experience analysing and controlling the physical phenomena affecting buildings, practitioners of Architectural Science have a profound impact on the function, aesthetics and efficiency of architectural spaces. </p></td>
+         </tr>
+         <tr>
+         <td></td>
+         <td><h7><img src="images/location.png"> Sydney, Australia</h7></td>
+         </tr>
+
+         <tr>
+          <td><h4>Tarumanagara University</h4></td>
+          <td><h5>Bachelor of Architecture</h5></td>
+          </tr>
+          <tr>
+          <td><h6>Aug 2008- Aug 2012</h6></td>
+          <td><p>The foundational education in architecture where I learned about architectural design, construction method, and 3D modeling.  </p></td>
+          </tr>
+          <tr>
+          <td></td>
+          <td><h7><img src="images/location.png"> Jakarta, Indonesia</h7></td>
+          </tr>
+
+         <tr>
+           <td>
+         <h3>Professional</h3>
+        </td>
+         <tr>
+
+         
+            <tr>
+            <td><h4>Park + Associates</h4></td>
+            <td><h5>Architectural Designer</h5></td>
+            </tr>
+            <tr>
+            <td><h6>Jun 2021- Oct 2021</h6></td>
+            <td><ul>
+              <li> Design residential project including GCB (Good Class Bungalow) in compliance with local building regulations and codes</li>
+              <li>Developing drawings for Urban Redevelopment Authority submission</li>
+              <li> Developing 3D model and client presentation</li>
+            </ul></td>
+            </tr>
+            <tr>
+            <td></td>
+            <td><h7><img src="images/location.png"> Singapore (remote)</h7></td>
+            </tr>
+
+            <tr>
+              <td><h4>SEED Architects</h4></td>
+              <td><h5>Architectural Designer</h5></td>
+              </tr>
+              <tr>
+              <td><h6>Aug 2019- Jun 2021</h6></td>
+              <td><ul>
+                <li> Developing architecture and interior design from Schematic Design, Design Development, until Construction Drawing</li>
+                <li>Designing with compliance with local building regulations and codes</li>
+                <li> Competing in national and international architecture competitions which involves 3D modeling, layouting, graphs, and
+                 architectural presentations</li>
+                </ul></td>
+              </tr>
+              <tr>
+              <td></td>
+              <td><h7><img src="images/location.png"> Jakarta, Indonesia</h7></td>
+              </tr>
+
+              <tr>
+                <td><h4>Department of Foreign Affairs and Trade (DFAT) - Australian Embassy</h4></td>
+                <td><h5>Property Management Staff (Intern)</h5></td>
+                </tr>
+                <tr>
+                <td><h6>Jun 2019- Aug 2019</h6></td>
+                <td><ul>
+                  <li> Designing layout for functions within the embassy</li>
+                  <li>Conducting inventory management and property inspections with VCU (Visit Coordinator Unit)</li>
+                  <li> Developing fact sheets for DFAT assets including the waste management</li>
+                  <li>Assisting the periodical Work Health and Safety Inspection Checklist of the building</li>
+                </ul></td>
+                </tr>
+                <tr>
+                <td></td>
+                <td><h7><img src="images/location.png"> Jakarta, Indonesia</h7></td>
+                </tr>
+
+                <tr>
+                  <td><h4>PHL Architects</h4></td>
+                  <td><h5>Architect</h5></td>
+                  </tr>
+                  <tr>
+                  <td><h6>May 2013- Jun 2016</h6></td>
+                  <td> <ul>
+                    <li> Lead projects in mixed-use planning and hospitality design</li>
+                    <li>Competed in National and International Competitions for architecture and urban planning</li>
+                    <li> Coordinated design with team, usually consist of 3 to 4 people per team and organised work schedule for the team to
+                     ensure the workload are evenly shared and the works are done accordingly with the schedule</li>
+                    <li>Developed design from Schematic Design, Design Development, until Construction Drawing (exterior and interior)
+                     Coordinated design with clients and other consultants, including Mechanical Electrical Plumbing, Structural Engineer,
+                     Commercial Marketing, and QS while also arranged regular meeting and on-site meeting</li>
+                     <li>Delivered presentations to the local government and other related governmental bodies for the projects, including to gain land use permit</li>
+                    </ul></td>
+                  </tr>
+                  <tr>
+                  <td></td>
+                  <td><h7><img src="images/location.png"> Jakarta, Indonesia</h7></td>
+                  </tr>
+
+                  <tr>
+                    <td><h4>Airmas Asri</h4></td>
+                    <td><h5>Junior Architect</h5></td>
+                    </tr>
+                    <tr>
+                    <td><h6>Jan 2013- Mar 2013</h6></td>
+                    <td><ul>
+                      <li> Created schematic design documents for the mixed-use building in Jakarta</li>
+                      <li>Coordinated the design with the team and to the Design Manager</li>
+                      <li> Attended regular meeting with Structure Engineer and Mechanical Electrical Plumbing (MEP) Consultant</li>
+                    </ul></td>
+                    </tr>
+                    <tr>
+                    <td></td>
+                    <td><h7><img src="images/location.png"> Jakarta, Indonesia</h7></td>
+                    </tr>
+                  
+                    <tr>
+                      <td><h4>Summarecon Agung</h4></td>
+                      <td><h5>Junior Architect (Intern)</h5></td>
+                      </tr>
+                      <tr>
+                      <td><h6>Jun 2011- Oct 2011</h6></td>
+                      <td><ul>
+                        <li> Assisted Senior Architect in reviewing hardware supply and site supervision</li>
+                        <li>Assisted Civil Engineer in site supervision and construction documentation</li>
+                      </ul></td>
+                      </tr>
+                      <tr>
+                      <td></td>
+                      <td><h7><img src="images/location.png"> Jakarta, Indonesia</h7></td>
+                      </tr>
+        </table>
+        <br>
+        <br>
+        
+         <!--Skills-->
+         <h2>Skills</h2>
+         <br>
+         <hr width="300px">
+         <table class="skillTable">
+          <tr>
+            <td>Architectural Design</td>
+            <td><img src="images/icon/autocad.png" width="50px" title="AutoCAD"></td>
+            <td><img src="images/icon/revit.png" width="50px" title="Revit"></td>
+          </tr>
+          <tr>
+           <td>2D Design and video editing</td>
+           <td><img src="images/icon/ai.png" width="50px" title="Illustrator"></td>
+           <td><img src="images/icon/photoshop.png" width="50px" title="Photoshop"></td>
+           <td><img src="images/icon/aftereffects.png" width="50px" title="After Effects"></td>
+           <td><img src="images/icon/indesign.png" width="50px" title="InDesign"></td>
+           <td><img src="images/icon/premiere.png" width="50px" title="Premiere"></td>
+         </tr>
+          <tr>
+            <td>3D Modelling</td>
+            <td><img src="images/icon/blender.png" width="50px" title="Blender"></td>
+            <td><img src="images/icon/sketchup.png" width="50px" title="Sketchup"></td>
+            <td><img src="images/icon/3dsmax.png" width="50px" title="3DSMax"></td>
+            <td><img src="images/icon/zbrush.png" width="50px" title="ZBrush"></td>
+          </tr>
+          <tr>
+            <td>UI/UX</td>
+            <td><img src="images/icon/figma.png" width="50px" title="Figma"></td>
+            <td><img src="images/icon/xd.png" width="50px" title="XD"></td>
+          </tr>
+          <tr>
+            <td>Simulation</td>
+            <td><img src="images/icon/climate.png" width="50px" title="Climate Consultant"></td>
+            <td><img src="images/icon/designbuilder.png" width="50px" title="Design Builder"></td>
+            <td><img src="images/icon/rhino.png" width="50px" title="Rhinoceros"></td>
+            <td><img src="images/icon/grasshopper.png" width="50px" title="Grasshopper, Ladybug, Honeybee"></td>
+          </tr>
+        </table>
+
+        <!--Awards-->
+        <h2 id="awardsTitle">Awards & Honours</h2>
+        <br>
+        <hr width="300px">
+        <div id="awardsList">
+        <li>Australian Institute of Building NSW Chapter President's Award &nbsp;&nbsp;&nbsp;<span class="institution">|The University of Sydney | recipient | 2019</span></li>
+        <li>Dean's List of Excellence in Academic Performance 2018&nbsp;&nbsp;&nbsp;<span class="institution">|The University of Sydney | recipient | 2019</span></li>
+        <li>Jacques Rougerie International Competition Finalist&nbsp;&nbsp;&nbsp;<span class="institution">|The University of Sydney | recipient | 2019</span></li>
+        <li>Dean's List of Excellence in Academic Performance 2017&nbsp;&nbsp;&nbsp;<span class="institution">|The University of Sydney | recipient | 2018</span></li>
+        <li>David Rowe Memorial Price in Building Services&nbsp;&nbsp;&nbsp;<span class="institution">|The University of Sydney | recipient | 2018</span></li>
+        <li>Australia Awards Scholarship&nbsp;&nbsp;&nbsp;<span class="institution"> | recipient | 2016</span></li>
+        <li>World Architecture Festival 2014 Singapore Shortlisted&nbsp;&nbsp;&nbsp;<span class="institution">|With PHL Architects | recipient | 2014</span></li>
+        <li>2nd Place Equator Monument Competition&nbsp;&nbsp;&nbsp;<span class="institution">|With PHL Architects | recipient | 2013</span></li>
+        <li>Faculty highest GPA Tarumagara University&nbsp;&nbsp;&nbsp;<span class="institution">|Tarumanagara University | recipient | 2012</span></li>
+        <li>Tarumagara University Senior Year Scholarship&nbsp;&nbsp;&nbsp;<span class="institution">|Tarumanagara University | recipient | 2011</span></li>
+        <br>
+        </div>
+
+        <!--Projects-->
+        <h2 id="portfolioTitle">Projects</h2>
+        <br>
+        <hr width="300px">
+
+        <div class="gallery" id="portfolio">
+          <a href="https://drive.google.com/file/d/1x4cmP02R-sy-jbsJ8F8TWqJME77oV_kz/view?usp=sharing">
+            <img src="images/portfolio/chestnut.jpg" label="Chestnut" class="imageGallery" >
+            <span class="overlay">
+              <div class="textImage">Chestnut House | Park + Associates</div>
+            </span>
+          </a>
+        </div>
+
+        <div class="gallery">
+          <a href="https://drive.google.com/file/d/1x4cmP02R-sy-jbsJ8F8TWqJME77oV_kz/view?usp=sharing">
+            <img src="images/portfolio/springleaf.jpg" label="Springleaf" class="imageGallery">
+            <span class="overlay">
+              <div class="textImage">Springleaf House | Park + Associates</div>
+            </span>
+          </a>
+        </div>
+
+         <div class="gallery">
+            <a href="https://drive.google.com/file/d/1x4cmP02R-sy-jbsJ8F8TWqJME77oV_kz/view?usp=sharing">
+            <img src="images/portfolio/sintang.jpg" label="Sintang Boardhouse" class="imageGallery">
+            <span class="overlay">
+              <div class="textImage">Sintang Boardhouse | SEED Architects</div>
+            </span>
+          </a>
+        </div>
+
+          <div class="gallery">
+            <a href="https://drive.google.com/file/d/1x4cmP02R-sy-jbsJ8F8TWqJME77oV_kz/view?usp=sharing">
+            <img src="images/portfolio/neo.jpg" label="Neo" class="imageGallery">
+            <span class="overlay">
+              <div class="textImage">Neo Aston Hotel | PHL Architects</div>
+            </span>
+          </a>
+        </div>
+
+          <div class="gallery">
+            <a href="https://drive.google.com/file/d/1x4cmP02R-sy-jbsJ8F8TWqJME77oV_kz/view?usp=sharing">
+            <img src="images/portfolio/mallofborneo.jpg" label="Mall of Borneo" class="imageGallery">
+            <span class="overlay">
+              <div class="textImage">Mall of Borneo | PHL Architects</div>
+            </span>
+          </a>
+        </div>
+
+          <div class="gallery">
+            <a href="https://drive.google.com/file/d/1x4cmP02R-sy-jbsJ8F8TWqJME77oV_kz/view?usp=sharing">
+            <img src="images/portfolio/casagrande.jpg" label="Casa Grande" class="imageGallery">
+            <span class="overlay">
+              <div class="textImage">Casa Grande | Airmas Asri</div>
+            </span>
+          </a>
+        </div>
+
+          <div class="gallery">
+            <a href="https://drive.google.com/file/d/1x4cmP02R-sy-jbsJ8F8TWqJME77oV_kz/view?usp=sharing">
+            <img src="images/portfolio/ocean.jpg" label="Ocean Agglomeration" class="imageGallery">
+            <span class="overlay">
+              <div class="textImage">Ocean Agglomeration</div>
+            </span>
+          </a>
+        </div>
+
+          <div class="gallery">
+            <a href="https://drive.google.com/file/d/1x4cmP02R-sy-jbsJ8F8TWqJME77oV_kz/view?usp=sharing">
+            <img src="images/portfolio/tatlin.jpg" label="Tatlin Tower" class="imageGallery">
+            <span class="overlay">
+              <div class="textImage">Tatlin Tower | PHL Architects</div>
+            </span>
+          </a>
+        </div>
+
+          <div class="gallery">
+            <a href="https://drive.google.com/file/d/1x4cmP02R-sy-jbsJ8F8TWqJME77oV_kz/view?usp=sharing">
+            <img src="images/portfolio/orange.jpg" label="Orange Shelter" class="imageGallery">
+            <span class="overlay">
+              <div class="textImage">Orange Shelter | PHL Architects</div>
+            </span>
+          </a>
+        </div>
+
+          <div class="gallery">
+            <a href="https://drive.google.com/file/d/1x4cmP02R-sy-jbsJ8F8TWqJME77oV_kz/view?usp=sharing">
+            <img src="images/portfolio/senen.jpg" label="Senen" class="imageGallery">
+            <span class="overlay">
+              <div class="textImage">Senen Flea Market</div>
+            </span>
+          </a>
+        </div>
+
+        <br>
+
+        <hr width="800px">
+
+
+      <!--Video-->
+
+      <div id="videoDemo">
+        <div class="videocontain">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/RBfI0_vb1BU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <hr width="800px">
+
+      <table class="sketchfabTable">
+        <tr>
+          <td>
+            <div class="sketchfab"> <iframe title="McDonald's BTS Meal" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/3406c4d6b2ab4106aef2c24b9b82accf/embed"> </iframe> </div>
+          </td>
+          <td>
+            <div class="sketchfab"> <iframe title="Drone" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/c33b597f1185401a90c89f0e339c69b9/embed"> </iframe> </div>
+          </td>
+          <td>
+            <div class="sketchfab"> <iframe title="Prinny" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/132bbea411ac4f98a7a60930348c05a9/embed"> </iframe> </div>
+          </td>
+        </tr>
+      </table>
+
+
+
+       <!--Footer-->
+      
+      <div class="filler">
+       <h2 id="contactTitle">Contact</h2>
+       <br>
+       <hr width="300px">
+       <div id="contactMe">
+      </div>
+      <div><img src="images/contact.png" id="contactImage"></div>
+
+
+      <table class="contactTable">
+        <tr class="contact1">
+          <td><img src="images/icon2/linkedin.png" width="50px" title="Linkedin"></td>
+          <td><a href="https://www.linkedin.com/in/ricardo-lionar-20991961/">https://www.linkedin.com/in/ ricardo-lionar-20991961</a></td>
+        </tr>
+        <tr class="contact1">
+          <td><img src="images/icon2/instagram.png" width="50px" title="Instagram"></td>
+          <td><a href="https://www.instagram.com/ricardolionar/">https://www.instagram.com/ricardolionar/</a></td>
+        </tr>
+        <tr class="contact1">
+          <td><img src="images/icon2/sketchfab.png" width="50px" title="Sketchfab"></td>
+          <td><a href="https://sketchfab.com/ricardolionar">https://sketchfab.com/ricardolionar</a></td>
+        </tr>
+        <tr class="contact1">
+          <td><img src="images/icon2/artstation.png" width="50px" title="Artstation"></td>
+          <td><a href="https://www.artstation.com/ricardolionar">https://www.artstation.com/ricardolionar</a></td>
+        </tr>
+        </table>
+        <br>
+        <br>
+
+      </div>
+    </div>
+    </div>
+
+
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js" integrity="sha512-pvDW4tehKKsohH97164HwKwRGFpzayEFWTVbk8HuUoLIQ7Jp+WLN5XYokVuoCj2aT6dy8ihbW8SRTG1k0W4mSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script type="text/javascript" src="jquery-1.12.0.min.js"></script>
+      <script type="text/javascript" src="jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="jquery.mousewheel.min.js"></script>
+      <script type="text/javascript" src="magnific.js"></script>
+      <script type="text/javascript" src="myScript.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js" integrity="sha512-kDuUo39RGApdfHkM1WQL8Pg9BYtYGS5rD14AzePsD4SEaixw7v/ykAkLMdsSjuBCNFE6/FAP+WIHh6N6QZJl5w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js" integrity="sha512-hFyYiBIWCYSyo98oFGWjG5V8HEV4g5O2pxu0mzU8qIMC7lrrwtcKWoRDZcpRL0ywIIM2d/XsBJ9iXNLFf6kIgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js" integrity="sha512-7nSmgdAZ7oPdT5aa2a4YauI8Y1xgaj6zZtQo9+EIEhpcNEiRHPAtyTKYckBQ0lmg1xQKrdWweHBcN/D0tdnvCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js" integrity="sha512-plyexAULVlTExvDn2yUZFJV9F8q+53MC/GpU9dEuNGXmrrI3J8Rcffjvxg3OOBALBvF+UILPLIBEoCeF2maqTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js" integrity="sha512-tSIDeirKC6suYILHqqPuZH3s0MvD4a5vCHXhBIcdmq4gQXZ2IB3fEYA5x2f3D2p/CbSqzKEvuTEVbS5VZ2u+ew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js" integrity="sha512-ocsFo48WU8Xq6Y1Lwi7psXRAujG9E4TKNR4q1DbrKzaaxOMTEoao/a+mDoB+cYzY4lwbyxvqjkp/ZA1/MNlfsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="animate.js"></script>
+      <script src="animate2.js"></script>
+</body>
+</html>
