@@ -16,56 +16,61 @@
 <nav class="navbar">
   <ul>
     <li>
-      <a href="#thisIs" class="dot active" data-scroll="Hello">
+      <a href="#thisIs" class="dot active" data-scroll="thisis">
         <span>Hello</span>
       </a>
     </li>
     <li>
-      <a href="#myExperience" class="dot" data-scroll="Experiences">
+      <a href="#myExperience" class="dot" data-scroll="myExperience">
         <span>Experiences</span>
       </a>
     </li>
     <li>
-      <a href="#awardsTitle" class="dot" data-scroll="Awards">
+      <a href="#awardsTitle" class="dot" data-scroll="awardsTitle">
         <span>Awards</span>
       </a>
     </li>
     <li>
-      <a href="#portfolioTitle" class="dot" data-scroll="project">
+      <a href="#portfolioTitleUx" class="dot" data-scroll="portfolioTitleUx">
         <span>Project</span>
       </a>
     </li>
     <li>
-      <a href="#contactMe" class="dot" data-scroll="contact">
+      <a href="#contactTitle" class="dot" data-scroll="contactTitle">
         <span>Contact</span>
       </a>
     </li>
   </ul>
   </nav>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
 
 
-<script type="text/javascript">
-$(document).ready(function(){
+  <script type="text/javascript">
 
-$(window).on('scroll',function(){
-
-  var link = $('.navbar a.dot');
-  var top = $(window).scrollTop();
-
-  $('.sec').each(function(){
-    var id = $(this).attr('id');
-    var height = $(this).height();
-    var offset = $(this).offset().top - 150;
-    if(top >= offset && top < offset + height){
-      link.removeClass('active');
-      $('.navbar').find('[data-scroll="' + id + '"]').addClass('active');
-    }
-  });
-});
-});
-</script>
+    $(document).ready(function(){
+    
+      $(window).on('scroll',function(){
+    
+        var link = $('.navbar a.dot');
+        var top = $(window).scrollTop();
+    
+        $('.sec').each(function(){
+          var id = $(this).attr('id');
+          var height = $(this).height();
+          var offset = $(this).offset().top - 100;
+          if(top >= offset && top < offset + height){
+            link.removeClass('active');
+            $('.navbar').find('[data-scroll="' + id + '"]').addClass('active');
+          }
+        });
+    
+      });
+    
+    });
+    
+    
+    </script>
 
 <body class="launch" data-new-gr-c-s-check-loaded="14.1039.0" data-gr-ext-installed>
   </ul>
@@ -96,7 +101,7 @@ $(window).on('scroll',function(){
         <div>Greetings!</div>
        </div>
 
-       <div class="thisIs">
+       <div class="thisIs sec">
          <div id="thisIs">This is<a> Ricardo Lionar</a></div>
          <div id="belowName">Professional Architect and Designer</div>
        </div>
@@ -168,7 +173,7 @@ $(window).on('scroll',function(){
           <br>
           <br>
          <!--Experiences-->
-        <div class="experience" id="myExperience">
+        <div class="experience sec" id="myExperience">
          <h2>Experiences</h2>
          <br>
          <hr width="300px">
@@ -363,7 +368,7 @@ $(window).on('scroll',function(){
         </table>
 
         <!--Awards-->
-        <h2 id="awardsTitle">Awards & Honours</h2>
+        <h2 class="sec" id="awardsTitle">Awards & Honours</h2>
         <br>
         <hr width="300px">
         <div id="awardsList">
@@ -382,7 +387,7 @@ $(window).on('scroll',function(){
 
         <!--Projects-->
 
-        <h2 id="portfolioTitleUx">UI/UX Projects</h2>
+        <h2 class="sec" id="portfolioTitleUx">UI/UX Projects</h2>
         <br>
         <hr width="300px">
 
@@ -390,7 +395,7 @@ $(window).on('scroll',function(){
           <a href="green.html">
             <img src="images/UX/Green/cover.jpg" label="Green Building" class="imageGallery">
             <span class="overlay">
-              <div class="textImage">Green Building App | Google Certificate Program</div>
+              <div class="textImage">Green Building | Google Certificate Program</div>
             </span>
           </a>
         </div>
@@ -399,7 +404,7 @@ $(window).on('scroll',function(){
           <a href="shader.html">
             <img src="images/UX/Shader/Cover.jpg" label="Shader" class="imageGallery">
             <span class="overlay">
-              <div class="textImage">Shader App | Google Certificate Program</div>
+              <div class="textImage">Shader | Google Certificate Program</div>
             </span>
           </a>
         </div>
@@ -408,7 +413,7 @@ $(window).on('scroll',function(){
           <a href="property.html">
             <img src="images/UX/Property/cover.jpg" label="Superhouse" class="imageGallery">
             <span class="overlay">
-              <div class="textImage">Superhouse App | Google Certificate Program</div>
+              <div class="textImage">Superhouse | Google Certificate Program</div>
             </span>
           </a>
         </div>
@@ -543,7 +548,7 @@ $(window).on('scroll',function(){
        <!--Footer-->
       
       <div class="filler">
-       <h2 id="contactTitle">Contact</h2>
+       <h2 class="sec" id="contactTitle">Contact</h2>
        <br>
        <hr width="300px">
        <div id="contactMe">

@@ -2,112 +2,16 @@
  a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:top}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
  a, a:link, a:visited { color: inherit; text-decoration: inherit; }
  
- /* GLOBAL */
- 
- .section.internallinks, .section.internallinks * {
-	 vertical-align: baseline;
- }
- .gridwithicons.section.internallinks, .gridwithicons.section.internallinks * {
-	 vertical-align: top;
- }
- .nav_menu{
-	list-style: none;
-	margin: 0;
-	Padding: 0;
-	}
-	.nav_menu li {
-	min-width: auto;
-	display:inline-block;
-	margin-right: 1em;
-	text-align: center;
-	position: relative;
-	z-index: 98;
-	}
-
- html {
-	 background-color: #ffffff;
-	 color: #000000;
-	 font-family: 'Open Sans', sans-serif;
-	 font-weight: 100;
-	 font-style: normal;
-	 text-align: center;
-	 font-size: 14px;
-	 line-height: 50px;
-	 scroll-behavior: smooth;
- }
- 
- .section {
-	 color: #ffffff;
- }
- 
- p>a:link, p>a:visited {
-	 color: #ffffff;
-	 text-decoration: underline;
-	 transition: color 0.2s;
- }
- p>a:hover {
-	 color: #fff;
- 
- }
- 
- body {
-	 position: relative;
- }
- body.subpage {
-	 position: relative;
- }
- .subpage .toprule {
-	 position: relative;
- }
- 
- h1, h2, h3, h4 {
-	 text-transform: uppercase;
- }
-
- h2{
-	 font-size: 32px;
-	 color: #1e9094;
- }
- s {
-	 opacity: 0.8;
-	 position: relative;
-	 text-decoration: none;
- }
- s:before {
-	 position: absolute;
-	 content: "";
-	 left: -3px;
-	 top: 50%;
-	 right: -3px;
-	 border-top: 2px solid;
-	 box-shadow: 0px 1px 1px #ffaf00;
-	 border-color: #5693B9;
-	 -webkit-transform: rotate(-4deg);
-	 -moz-transform: rotate(-4deg);
-	 -ms-transform: rotate(-4deg);
-	 -o-transform: rotate(-4deg);
-	 transform: rotate(-4deg);
- }
- 
  /********************/
  /********************/
  /* NAVIGATION BAR */
  /********************/
  /********************/
  .sec{
-	min-height: 100vh;
-	width: 100vw;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: 3em;
-	color:#777;
-	background: #f9f9f9;
-	letter-spacing: 2px;
+
   }
   
   .sec:nth-child(odd){
-	background: #ddd;
   }
   
   .navbar{
@@ -197,6 +101,93 @@
   .navbar ul li:hover .dot::after{
 	transform: translateY(-50%) scale(1);
   }
+ 
+ /* GLOBAL */
+ 
+ .section.internallinks, .section.internallinks * {
+	 vertical-align: baseline;
+ }
+ .gridwithicons.section.internallinks, .gridwithicons.section.internallinks * {
+	 vertical-align: top;
+ }
+ .nav_menu{
+	list-style: none;
+	margin: 0;
+	Padding: 0;
+	}
+	.nav_menu li {
+	min-width: auto;
+	display:inline-block;
+	margin-right: 1em;
+	text-align: center;
+	position: relative;
+	z-index: 98;
+	}
+
+ html {
+	 background-color: #ffffff;
+	 color: #000000;
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight: 100;
+	 font-style: normal;
+	 text-align: center;
+	 font-size: 14px;
+	 line-height: 50px;
+	 scroll-behavior: smooth;
+ }
+ 
+ .section {
+	 color: #ffffff;
+ }
+ 
+ p>a:link, p>a:visited {
+	 color: #ffffff;
+	 text-decoration: underline;
+	 transition: color 0.2s;
+ }
+ p>a:hover {
+	 color: #fff;
+ 
+ }
+ 
+ body {
+	 position: relative;
+ }
+ body.subpage {
+	 position: relative;
+ }
+ .subpage .toprule {
+	 position: relative;
+ }
+ 
+ h1, h2, h3, h4 {
+	 text-transform: uppercase;
+ }
+
+ h2{
+	 font-size: 32px;
+	 color: #1e9094;
+ }
+ s {
+	 opacity: 0.8;
+	 position: relative;
+	 text-decoration: none;
+ }
+ s:before {
+	 position: absolute;
+	 content: "";
+	 left: -3px;
+	 top: 50%;
+	 right: -3px;
+	 border-top: 2px solid;
+	 box-shadow: 0px 1px 1px #ffaf00;
+	 border-color: #5693B9;
+	 -webkit-transform: rotate(-4deg);
+	 -moz-transform: rotate(-4deg);
+	 -ms-transform: rotate(-4deg);
+	 -o-transform: rotate(-4deg);
+	 transform: rotate(-4deg);
+ }
  
  
  /* PARALLAX */
@@ -610,7 +601,7 @@ h7{
 	 margin-left: auto;
 	 margin-right: auto;
 	 vertical-align: middle;
-	 margin-bottom: 200px;
+	 margin-bottom: 20px;
  }
 
  .sketchfab{
@@ -620,7 +611,7 @@ h7{
   /*FOOTER*/
 
 #contactTitle{
-	  padding-top: 50px;
+	  padding-top: 20px;
   }
 .contactTable{
 	color: #707070;
