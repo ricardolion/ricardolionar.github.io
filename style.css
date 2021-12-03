@@ -613,6 +613,10 @@ h7{
 #contactTitle{
 	  padding-top: 20px;
   }
+
+#contactMe{
+	color:#ffffff;
+}
 .contactTable{
 	color: #707070;
 	text-align: left;
