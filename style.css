@@ -770,4 +770,23 @@ h7{
 	 }
  }
  
- 
+  /* UX PORTFOLIO */
+
+  .uxGallery {
+	  margin: 20px;
+
+  }
+
+  #backHome {
+	  background-color: #1288d6;
+	  font-size: 24px;
+	  color: #ffffff;
+	  padding: 15px;
+	  vertical-align: middle;
+	  border-radius: 20px;
+  }
+
+  .navigation2{
+	  margin-top: 50px;
+	  margin-bottom: 50px;
+  }
