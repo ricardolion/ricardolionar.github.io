@@ -602,10 +602,12 @@ h7{
 	 margin-right: auto;
 	 vertical-align: middle;
 	 margin-bottom: 20px;
+	 width: 500px;
+	 display:inline
  }
 
  .sketchfab{
-	 padding: 50px;
+	 padding: 25px;
  }
 
   /*FOOTER*/
