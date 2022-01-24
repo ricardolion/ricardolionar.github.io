@@ -3,7 +3,7 @@ const flightpath2={
     autoRotate: false,
     values:[
        
-        {x:-1900, y:0}
+        {x:-2300, y:0}
     ]
 }
 
